@@ -6,7 +6,7 @@ const customerService = require('../services/customer.service');
 router.post('/create', create);
 router.post('/reset', reset);
 router.get('/', getAll);
-router.get('/:id', getById);
+router.get('/:id/detail', getById);
 router.delete('/:id', _delete);
 
 module.exports = router;
